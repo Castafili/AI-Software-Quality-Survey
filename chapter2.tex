@@ -1,0 +1,27 @@
+\chapter{AI Tools Classifications}
+
+The AI tools used in software development can be categorized in different groups based on what development aspects they aim to support. This classification exists to clarify the role of every tool, as well as, give a more structured analysis on the impact they have on software quality.
+
+In this survey, the AI tools have been classified in three main categories: Code generating AIs , code analysis AIs, and test automation AIs. Each one of these dresses different challenges related to software quality, from to productivity and correctness all the way to maintainability and reliability.
+
+The next sections introduce these categories and mention their main characteristics, laying the groundwork for the detailed analysis that follows in the next chapters.
+
+\newpage
+
+\section{Code Generating AIs}
+
+Code generating AIs are one of the most broadly known category of AIs when talking about software development. Such tools help developers by producing code suggestions based on contextual information provided by the programmer and the surrounding code, and their main objective is to reduce the probability of human errors in a program. 
+
+While these tools can help improve productivity, the impact they have on software quality is not always straightforward. Generated code usually contains logical errors, security issues or a reduced readability if it's not reviewed properly. Because of this, these tools are most effective when in use within a human-in-the-loop workflow, rather than in a fully isolated environment.
+
+\section{Code Analysis AIs}
+
+Code Analysis AIs expand on the previously mentioned reduction of human error in a program, their objective is to inspect the written code, whether that being AI or human generated, for any problems, violation of coding standards, as well as to detect and fix any bugs that might be present in the structure of the software, usually relying on a combination of static analysis techniques and ML models.
+
+By examining large codebases, code analysis AIs aim to improve the maintainability throughout the development cycle. However, their effectiveness relies on how accurate the analysis is and how well the developers interpret the reported issues.
+
+\section{Test Automation AIs}
+
+Test automation AIs main goal is to help the software testing process by generating, executing, and prioritizing test cases. These tools aim to increase test coverage and to discover the execution paths that may be overlooked during human testing.
+
+While these AI tools can help enhance reliability, the quality of the tests they generate depends on the models they use and datasets available. This means that, human supervision is more often than not required for the validation of the tests and also, to ensure that critical scenarios are also covered.

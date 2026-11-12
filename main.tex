@@ -1,0 +1,56 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx, float} % Required for inserting images
+\usepackage{lipsum}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{mathptmx}
+
+
+\renewcommand{\baselinestretch}{1.15}
+\setlength{\parskip}{0.8em}
+
+
+\title{\textbf{A Literature Survey on AI Tools and Their Impact on Software Quality}\\
+
+{\Large Athens University of Economics and Business}}
+\author{Filippo Castagnola}
+\date{January 2026}
+
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+
+The recent increase in the use of Artificial Intelligence in software engineering has drastically changed how programs are designed, implemented, and maintained. Even though the AI tools promise to give an improvement in the productivity and efficiency of programs, the impact they actually have on the quality of software remains an open research question. This literature survey reviews what role AI development tools have, as well as their influence on important software quality characteristics.
+
+This literature survey goes over three of the biggest AI categories, specifically it'll talk about: code generation, code analysis, and test automation ones. For each one of these, various tools are reviewed to highlight their main functionalities, how they're used, and what role that play in the context of different software quality characteristics such as maintainability and reliability. The analysis will also consider specific concepts such as technical debt, ethical implications, and the human-in-the-loop paradigm.
+
+The results of the survey show how such AI tools can help developers during programming, especially in minimizing long tasks and in detecting bugs early. However, the survey also mentions that human oversight still is an essential aspect, needed to prevent quality degradation, excessive technical debt, and over-reliance on AI tools. Future research directions emphasize the requirement of long-term studies on the quality of AI-assisted software and standardized evaluation techniques.
+
+\tableofcontents
+
+\include{introduction}
+
+\include{chapter1}
+
+\include{chapter2}
+
+\include{chapter3}
+
+\include{chapter4}
+
+\include{chapter5}
+
+\include{chapter6}
+
+\include{conclusion}
+
+\bibliographystyle{unsrt}
+\bibliography{ref}
+
+\end{document}
