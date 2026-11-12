@@ -46,3 +46,6 @@ To compile the document locally from the LaTeX source files:
    bibtex main
    ```
 4. Re-run `pdflatex main.tex` twice to resolve all cross-references, table of contents entries, and citations.
+
+## Download the PDF
+To download the pre-compiled PDF -> [Download Compiled PDF](./Filippo_Castagnola_AI_Software_Quality_Survey_AUEB.pdf)
